@@ -4,27 +4,31 @@
         "name": "Mir Raju",
         "img": "https://plus.unsplash.com/premium_photo-1661746658792-f45a2c46ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "title": "How to get your first job as a self-taught programmer",
-        "date": "12 Mar 2021"
+        "date": "12 Mar 2021",
+        "spendTime": "5 min read"
     },
     {
         "id": 102,
         "name": "Mir Karim",
         "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "title": "How to get your first job as a self-taught programmer",
-        "date": "12 Mar 2021"
+        "date": "12 Mar 2021",
+        "spendTime": "6 min read"
     },
     {
         "id": 103,
         "name": "Mir Jamal",
-        "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "title": "How to get your first job as a self-taught programmer",
-        "date": "12 Mar 2021"
+        "date": "12 Mar 2021",
+        "spendTime": "7 min read"
     },
     {
         "id": 104,
         "name": "Mir Kamal",
         "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "title": "How to get your first job as a self-taught programmer",
-        "date": "12 Mar 2021"
+        "date": "12 Mar 2021",
+        "spendTime": "5 min read"
     }
 ]

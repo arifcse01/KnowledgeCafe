@@ -1,9 +1,11 @@
 .home{
-    display: flex;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
-.home-content{
-    max-width: 90%;
+.main-content{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .side-content{
-    margin-left: auto;
+    
 }

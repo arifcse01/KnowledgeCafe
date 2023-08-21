@@ -1,0 +1,39 @@
+.cart-item{
+    
+}
+.cart{
+    width: 300px;
+    margin: 15px 0px;
+    border: 1px solid goldenrod;
+    padding: 10px;
+}
+.cart img{
+    width: 280px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cart .profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.cart .profile{
+    display: flex;
+    align-items: center;
+}
+.cart-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile h4{
+    margin-bottom: 0;
+}
+.profile p{
+    margin-top: 0;
+}
+.icon{
+    color: gray;
+    cursor: pointer;
+}

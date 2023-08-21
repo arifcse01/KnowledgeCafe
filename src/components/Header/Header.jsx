@@ -8,9 +8,6 @@ const Header = () => {
                 <h1>Knowlege Cafe</h1>
                 <ul>
                     <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
                 </ul>
             </div>
 
