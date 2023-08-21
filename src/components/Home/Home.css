@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+}
+.home-content{
+    max-width: 90%;
+}
+.side-content{
+    margin-left: auto;
+}
