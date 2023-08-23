@@ -1,6 +1,14 @@
 .header{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #808080;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.main-header{    
+    background-color: rgb(233, 228, 228);    
+    max-width: 100%;
 }
 .header ul{
     margin-left: auto;

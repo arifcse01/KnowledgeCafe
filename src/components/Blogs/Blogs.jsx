@@ -5,9 +5,10 @@ import "./Blogs.css"
 
 
 const Blogs = (props) => {
-    const { img, title, name, id, date, spendTime } = props.blog;
+    const { img, title, name, date, spendTime } = props.blog;
     
     const handleRead = props.handleRead;
+    const handleBookedMark = props.handleBookedMark;
 
     return (
         <div className='cart-item'>
@@ -22,7 +23,7 @@ const Blogs = (props) => {
                             <p className='date'>{date}</p>
                         </div>
                     </div>
-                    <div><p> {spendTime} <FontAwesomeIcon className='icon' icon = {faBookBookmark}></FontAwesomeIcon></p></div>
+                    <div><p> {spendTime} min read <FontAwesomeIcon className='icon' onClick={() => handleBookedMark(props.blog)} icon = {faBookBookmark}></FontAwesomeIcon></p></div>
                 </div>
                 <span>#Beginer </span>
                 <span> #Programmer</span>

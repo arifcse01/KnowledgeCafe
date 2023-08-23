@@ -1,0 +1,21 @@
+.title {
+    
+}
+
+.readTime {
+    color: #6047EC;
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.bookMarked {
+    color: #111;
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}

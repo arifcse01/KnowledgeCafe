@@ -6,6 +6,7 @@ import BlogItem from '../BlogItem/BlogItem';
 const Home = () => {
     const [blogs, setBlogs] = useState([]);
     const [newBlog, setNewBlog] = useState([]);
+    const [bookMark, setBookMark] = useState([])
 
     useEffect(() => {
         fetch('fakeDb.json')
@@ -17,15 +18,20 @@ const Home = () => {
         const newBlogItem = [...newBlog, blog]
         setNewBlog(newBlogItem)
     }
+
+    const handleBookedMark =(marked) =>{
+        const newBookedMark = [...bookMark, marked]
+        setBookMark(newBookedMark)
+    }
     return (
         <div className='home'>
             <div className='main-content'>
                 {
-                    blogs.map(blog => <Blogs blog={blog} key={blog.id} handleRead={handleRead} />)
+                    blogs.map(blog => <Blogs blog={blog} key={blog.id} handleRead={handleRead} handleBookedMark = {handleBookedMark} />)
                 }
             </div>
             <div className='side-content'>
-                <BlogItem newBlog = {newBlog}></BlogItem>
+                <BlogItem newBlog = {newBlog} bookMark={bookMark}></BlogItem>
             </div>
         </div>
     );
