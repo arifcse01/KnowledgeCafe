@@ -7,7 +7,9 @@ const BlogItem = ({ newBlog, bookMark }) => {
 
     let totalTime = 0;
     let title= "";
-    
+
+
+
     let style = {
         title: {
             opacity: 0.8,
@@ -20,12 +22,12 @@ const BlogItem = ({ newBlog, bookMark }) => {
     }
 
     for (const blog of newBlog) {
-        totalTime = totalTime + blog.spendTime;
-        
+        totalTime = totalTime + blog.spendTime;        
 
         // length = length + 1;    
     }
     for (const marked of bookMark) {
+        
         title =title + marked.title;
 
         // if(title === marked.title){
@@ -61,7 +63,7 @@ const BlogItem = ({ newBlog, bookMark }) => {
             <ToastContainer />
             <div>
                 <h5 className='bookMarked'>Bookmarked Blogs :{bookMark.length}</h5>
-                <div  style={style.title }><span>{title} <br /><br /></span><br></br></div>
+                <div  style={style.title}><span>{title} <br /><br /></span><br></br></div>
             </div>
 
         </div>

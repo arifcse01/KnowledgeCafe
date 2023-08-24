@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Blogs from '../Blogs/Blogs';
 import BlogItem from '../BlogItem/BlogItem';
+import { addToDb } from '../../utilities/fakeDb';
 
 const Home = () => {
     const [blogs, setBlogs] = useState([]);
@@ -17,6 +18,7 @@ const Home = () => {
     const handleRead = (blog) =>{        
         const newBlogItem = [...newBlog, blog]
         setNewBlog(newBlogItem)
+        addToDb(blog.id)
     }
 
     const handleBookedMark =(marked) =>{
